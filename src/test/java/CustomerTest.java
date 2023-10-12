@@ -27,4 +27,9 @@ public class CustomerTest {
         greg.setWallet(20);
         assertThat(greg.getWallet()).isEqualTo(20);
     }
+    
+    @Test
+    public void canBuyArtwork(){
+       
+    }
 }

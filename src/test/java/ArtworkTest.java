@@ -36,6 +36,16 @@ public class ArtworkTest {
 //        assertThat(wall.getArtist()).isEqualTo("luke");
 //    }
 
+    @Test
+    public void canGetPrice(){
+        assertThat(wall.getPrice()).isEqualTo(100);
+    }
+
+    @Test
+    public void canSetPrice(){
+    wall.setPrice(130);
+    assertThat(wall.getPrice()).isEqualTo(130);
+    }
 }
 
 

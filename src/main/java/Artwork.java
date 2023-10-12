@@ -25,6 +25,14 @@ public Artwork(String title, Artist artist, int price){
         return this.artist.getName();
     }
 
+    public int getPrice() {
+        return this.price;
+    }
+
+    public void setPrice(int newPrice) {
+        this.price = newPrice;
+    }
+
 //    public void setArtist(String newArtist) {
 //        this.artist = newArtist;
 //        newArtist="luke";
