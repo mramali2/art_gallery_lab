@@ -12,6 +12,7 @@ public class ArtworkTest {
     public void setUp(){
         john = new Artist("john");
         wall = new Artwork("wall",john,100);
+
     }
 
     @Test

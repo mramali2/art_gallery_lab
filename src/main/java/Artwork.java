@@ -33,8 +33,5 @@ public Artwork(String title, Artist artist, int price){
         this.price = newPrice;
     }
 
-//    public void setArtist(String newArtist) {
-//        this.artist = newArtist;
-//        newArtist="luke";
-//    }
+
 }

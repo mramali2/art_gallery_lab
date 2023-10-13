@@ -17,6 +17,12 @@ public class ArtistTest {
         assertThat(john.getName()).isEqualTo("John");
     }
 
+    @Test
+    public void canSetName(){
+        john.setName("peter");
+        assertThat(john.getName()).isEqualTo("peter");
+    }
+
 
 
 }
